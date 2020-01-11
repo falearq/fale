@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,700i&display=swap');
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+nav{ 
+    background-color: #F0DBBD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 4.5vw;
+    height: 10.4vw;
+
+}
+input[type="text"],textarea.form-control{
+    background-color: #ED8D9D;
+    color: #27120E;
+}
+.dark-mode input[type="text"],.dark-mode textarea.form-control{
+    background-color: #9FCAD5;
+    color: #27120E;
+}
+.botonsocial{
+   
+    color: #27120E;
+}
+.about-btn{  background-image:  url(../img/luna.svg);
+    background-repeat: no-repeat;
+    background-size: 1.5em;
+    height: 1.5em;
+    margin-bottom: 0;
+    width: 1.5em;
+
+}
+.btn{
+    background-color: #F0DBBD;
+    color: #27120E;
+}
+.btn:hover{
+    background-color: #27120E;
+    color: #E86969;
+}
+.card{
+    background: transparent;
+    border: none;
+}
+.card-body{
+    background: rgb(249, 230, 203);
+    border-radius: 10%;
+}
+.contacto {
+    color: #27120E;
+}
+.dark-mode .contacto {
+    color: #E86969;
+}
+.navbar a{
+    
+    color: #27120E;
+}
+.navbar a:hover {
+    color: #E86969;
+    -webkit-transition: all .5s ease-in;
+-moz-transition: all .5s ease-in;
+-ms-transition: all .5s ease-in;
+-o-transition: all .5s ease-in;
+transition: all .5s ease-in;
+    }
+
+.dark-mode .navbar a:hover {
+        color: rgb(25, 142, 140);
+        }
+
+.img-responsive{
+    max-height: 100%;
+    max-width: 100;
+}
+
+.sol {
+       background-image:  url(../img/luna.svg);
+       
+    }
+.luna {
+        background-image: url(../img/sol.svg);
+     }
+.sol,.luna{background-repeat: no-repeat;
+    background-size: 1.5em;
+    height: 1.5em;
+    margin-bottom: 0;
+    width: 1.5em;
+}
+.theme-btn{
+    background-color: transparent;
+    border: none;
+}
+.texto-video{
+    font-size: 9vw;
+    color: #27120E;
+}
+.texto-video:hover{
+    color: #ED8D9D;
+    -webkit-transition: all .5s ease-in;
+-moz-transition: all .5s ease-in;
+-ms-transition: all .5s ease-in;
+-o-transition: all .5s ease-in;
+transition: all .5s ease-in;
+}
+.dark-mode nav{
+    background-color: #E86969
+}
+.dark-mode body, .dark-mode .fondo{
+    background: #27120E;
+}
+body, .fondo{
+    background: #51BCC2;  
+
+}
+.pdf{
+    margin-top: 50vh;
+    top: 50vh;
+    bottom: 0;
+}
+.logotipo {
+    min-height: 10vw;
+    min-width: 14.5vw;
+    max-height: 10vw;
+}
+.contenido {
+    margin-top: 25vh;
+}
+.trans:hover{
+color: #E86969;
+-webkit-transition: all .5s ease-in;
+-moz-transition: all .5s ease-in;
+-ms-transition: all .5s ease-in;
+-o-transition: all .5s ease-in;
+transition: all .5s ease-in;
+}
+
+.visor{
+    background-color: rgb(249, 230, 203);
+    height: 70vh;
+    min-width:80vw;
+    max-width: 90vw;
+    margin-top: 23vh;
+    border-radius: 1rem;
+
+
+}
+.dark-mode .visor{
+    background-color: rgb(247, 132, 132);
+    
+
+
+}
+.video {
+    max-height: 70vh;
+    max-width: 100%;
+    margin-bottom: 8em;
+
+ 
+}
+}
+@media (max-width: 576px) {
+.contenido{
+    margin-top: 0;
+}
+.navbar {
+
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    font-size: 4.5vw;
+
+}
+.navbar a{
+  padding: 0;
+  margin: 0;
+}
+.logotipo {
+    min-height: 9vw;
+}
+.sol,.luna {
+    margin-bottom: .5em;
+}
+
+.visor{
+    height: 75vh;
+    width: 70vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+
+
+
+}
+
+}
+      
+
+  
